@@ -1,4 +1,4 @@
-# IP - Get the Public and Internal IP
+# Cache - Simple Cache based on go-zoox/kv
 
 [![PkgGoDev](https://pkg.go.dev/badge/github.com/go-zoox/cache)](https://pkg.go.dev/github.com/go-zoox/cache)
 [![Build Status](https://github.com/go-zoox/cache/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/go-zoox/cache/actions/workflows/ci.yml)
