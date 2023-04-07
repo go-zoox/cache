@@ -12,8 +12,8 @@ github.com/go-zoox/encoding v1.0.5 h1:YX/Lld53ghx3pLhM1uu03n2Dato+2GlI8wtCfA9UiL
 github.com/go-zoox/encoding v1.0.5/go.mod h1:WFF+m/IWYHtClMrcKnrdZHHf3cdIF8de2uTOILPM7lw=
 github.com/go-zoox/fs v1.2.4 h1:4XxqAF5VuF/AQphAFC7JG6W/3uUYUDurn8gTdS/zv8o=
 github.com/go-zoox/fs v1.2.4/go.mod h1:aywpClMqf6YO8+QnuwC3p3EvFWe88h0tWH65rpxtY00=
-github.com/go-zoox/kv v1.5.0 h1:GmSqN2t4AMfa0Yv4CsI2CSgKZoZcz8KwCGbHLN+fJ8M=
-github.com/go-zoox/kv v1.5.0/go.mod h1:u/IbVscKbZk4AyDvvnsK9DiaWshH/Nz3twlGDRyC9pA=
+github.com/go-zoox/kv v1.5.1 h1:tIaWHgSkXjk4idWWVoESdr0OOtc2+bOkJPtuTnktqO4=
+github.com/go-zoox/kv v1.5.1/go.mod h1:u/IbVscKbZk4AyDvvnsK9DiaWshH/Nz3twlGDRyC9pA=
 github.com/go-zoox/tag v1.0.6 h1:z/u9LiD5ibfX3iBlYZ+GhHFK2VouDKvk8tiJDH1poXM=
 github.com/go-zoox/uuid v0.0.1 h1:txqmDavRTq68gzzqWfJQLorFyUp9a7M2lmq2KcwPGPA=
 github.com/go-zoox/uuid v0.0.1/go.mod h1:0/F4LdfLqFdyqOf7aXoiYXRkXHU324JQ5DZEytXYBPM=
