@@ -23,11 +23,13 @@ type cache struct {
 
 // New creates a cache instance.
 func New(cfg ...*Config) Cache {
-	cfgX := &typing.Config{
-		Engine: "memory",
-	}
+	cfgX := &typing.Config{}
 	if len(cfg) > 0 && cfg[0] != nil {
 		cfgX = cfg[0]
+	}
+
+	if cfgX.Engine == "" {
+		cfgX.Engine = "memory"
 	}
 
 	core, err := kv.New(cfgX)
