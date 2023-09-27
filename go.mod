@@ -2,7 +2,7 @@ module github.com/go-zoox/cache
 
 go 1.18
 
-require github.com/go-zoox/kv v1.5.1
+require github.com/go-zoox/kv v1.5.9
 
 require (
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
