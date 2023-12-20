@@ -16,6 +16,7 @@ type Cache interface {
 	Set(key string, value interface{}, ttl ...time.Duration) error
 	Del(key string) error
 	Has(key string) bool
+	Clear() error
 }
 
 type cache struct {
@@ -61,4 +62,9 @@ func (c *cache) Del(key string) error {
 // Has ...
 func (c *cache) Has(key string) bool {
 	return c.core.Has(key)
+}
+
+// Clear ...
+func (c *cache) Clear() error {
+	return c.core.Clear()
 }
